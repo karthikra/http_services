@@ -12,16 +12,15 @@ def build_page_from_url(url):
     print(f'Downloading data from {url}', flush=True)
     header = {
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) '
-                      'Version/17.0 Safari/605.1.15 '
+                      'Version/17.0 Safari/605.1.15'
 
         # 'User-Agent': 'Karthik Ramesh 1879 '
     }
 
-    resp = requests.get(url,headers=header)
+    resp = requests.get(url, headers=header)
     html = resp.text
 
     soup = BeautifulSoup(html, features='lxml')
-
 
     title = soup.find('h1').get_text()
     paragraphs = [
