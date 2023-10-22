@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JetClientState">
+    <option name="draftsState">
+      <draftsState>
+        <option name="requests">
+          <list>
+            <requestState>
+              <option name="id" value="6dcebdd4-46a8-4eaf-b0cc-700be1032d4a" />
+              <option name="method" value="GET" />
+              <option name="name" value="Draft" />
+              <option name="url" value="https://api.github.com/repos/mikeckennedy/consuming_services_python_demos" />
+            </requestState>
+          </list>
+        </option>
+      </draftsState>
+    </option>
     <option name="id" value="5faf0cc1-bc97-408b-8fc1-1fba38b0f4e2" />
   </component>
 </project>
